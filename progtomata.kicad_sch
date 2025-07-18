@@ -10603,7 +10603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "74148:SO16"
+		(property "Footprint" "74LS148:SO16"
 			(at 302.26 66.04 0)
 			(effects
 				(font
