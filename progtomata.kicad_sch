@@ -5587,7 +5587,7 @@
 		(at 68.834 23.876 0)
 		(effects
 			(font
-				(face "Noto Sans")
+				(face "Verdana")
 				(size 10.16 10.16)
 				(thickness 0.508)
 				(bold yes)
@@ -5636,9 +5636,9 @@
 		)
 		(uuid "616e2a88-fc44-478d-9f92-792cb16fc483")
 	)
-	(text "Power supply"
+	(text "Power regulation"
 		(exclude_from_sim no)
-		(at 30.226 35.56 0)
+		(at 33.274 36.068 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5668,6 +5668,28 @@
 		)
 		(uuid "97465638-75cf-45f9-8cc7-a6bd8479b375")
 	)
+	(text "External clock source\nThe two small caps form the\nload network for the crystal"
+		(exclude_from_sim no)
+		(at 125.222 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9ff9679-603e-4d4e-87d3-87e852f96036")
+	)
+	(text "Local high‑frequency energy storage; keeps digital noise off the supply"
+		(exclude_from_sim no)
+		(at 93.98 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0c594ec-a4d7-41d9-b3f2-c94b7e7e5d66")
+	)
 	(text "Buttons priority encoder (sample & steps)"
 		(exclude_from_sim no)
 		(at 322.834 35.814 0)
@@ -5677,6 +5699,17 @@
 			)
 		)
 		(uuid "e8d2cba9-8f45-499a-933d-5008d9c2e7cd")
+	)
+	(text "Power‑on reset filter (C12)\nManual reset/boot‑mode switch (SW1->BOOT0)\nPull‑up/down resistor (R1)"
+		(exclude_from_sim no)
+		(at 107.696 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb40e6b0-543a-4576-bfff-5888fd68b031")
 	)
 	(junction
 		(at 109.22 50.8)
